@@ -1,0 +1,12 @@
+.TableOverflowWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.Table {
+    max-height: 100%;
+}
+
+.TableBody {
+    overflow-y: overlay;
+}
